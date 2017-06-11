@@ -1,0 +1,9 @@
+{
+    "require": {
+        "phpunit/phpunit": "^5.7",
+        "monolog/monolog": "^1.22",
+        "guzzlehttp/guzzle": "^6.2",
+        "swiftmailer/swiftmailer": "^5.4",
+        "psy/psysh": "^0.8.6"
+    }
+}
