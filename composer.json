@@ -6,8 +6,9 @@
     "type": "project",
     "autoload": {
         "psr-4": {
-            "Kernel\\": "kernel/",
-            "Core\\": "core/"
+            "Core\\": "core/",
+            "Interface\\": "interface",
+            "Kernel\\": "kernel/"
         }
     },
     "autoload-dev": {
@@ -16,10 +17,6 @@
         }
     },
     "require": {
-        "phpunit/phpunit": "^5.7",
-        "monolog/monolog": "^1.22",
-        "guzzlehttp/guzzle": "^6.2",
-        "swiftmailer/swiftmailer": "^5.4",
-        "psy/psysh": "^0.8.6"
+        "phpunit/phpunit": "^5.7"
     }
 }

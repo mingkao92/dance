@@ -1,7 +1,24 @@
 <?php 
 
-return $map = [
+Interface Database
+{
+	function config()
 
-	'user' => 'User',
+	function getInstance()
 
-];
+	function exec()
+
+	function query()
+
+	function beginTransaction()
+
+	function commit()
+
+	function rollback()
+
+	function errorCode()
+
+	function errorInfo()
+
+	function lastInsertId()
+}
