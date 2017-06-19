@@ -27,3 +27,7 @@ phpunit.phar
 /phpunit.xml
 
 
+
+#added
+composer.lock
+
