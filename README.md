@@ -1,5 +1,5 @@
 # dance
 PHP Let's Dance
 
-A simplicity & extensible PHP Framework
+A simple & extensible PHP Framework
 
