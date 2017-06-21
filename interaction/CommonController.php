@@ -1,7 +1,7 @@
 <?php
 
-namespace Interface;
-use Interface\Abstract\Controller;
+namespace Interaction;
+use Interaction\Abstract\Controller;
 
 class CommonController extends Controller
 {
