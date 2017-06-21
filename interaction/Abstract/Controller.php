@@ -1,7 +1,7 @@
 <?php
 
-namespace Interface\Abstract;
-use Interface\Interfaces\Controller as ControllerInterface;
+namespace Interaction\Abstract;
+use Interaction\Interfaces\Controller as ControllerInterface;
 
 abstract class Controller implements ControllerInterface
 {

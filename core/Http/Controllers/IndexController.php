@@ -1,7 +1,7 @@
 <?php
 
 namespace Core\Http\Controllers;
-use Interface\CommonController as BaseController;
+use Interaction\CommonController as BaseController;
 
 class IndexController extends BaseController
 {

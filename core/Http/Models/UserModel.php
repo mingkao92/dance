@@ -1,7 +1,7 @@
 <?php
 
 namespace Core\Http\Models;
-use Interface\CommonModel as BaseModel;
+use Interaction\CommonModel as BaseModel;
 
 class UserModel extends BaseModel
 {
