@@ -4,11 +4,6 @@ namespace Kernel\Http;
 
 class Application
 {
-	public function __construct()
-	{
-
-	}
-
 	public static function init(array $config)
 	{
 		$app = new Application();
@@ -22,5 +17,4 @@ class Application
 	}
 }
 
-
- ?>
+?>
