@@ -1,6 +1,6 @@
-<?php 
+<?php
 
 return $appConfig = [
-	'route' => ['route', 'php'],
-	'database' => ['database', 'php'],
+    'route' => include_once 'route.php',
+    'database' => include_once 'database.php',
 ];

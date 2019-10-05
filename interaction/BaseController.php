@@ -1,12 +1,11 @@
 <?php
 
 namespace Interaction;
-use Interaction\Abstract\Controller;
 
-class CommonController extends Controller
+use Interaction\Abstracts\Controller;
+use Interaction\Traits\Controller as ControllerTrait;
+
+class BaseController extends Controller
 {
-	public function __construct()
-	{
-
-	}
+    use ControllerTrait;
 }

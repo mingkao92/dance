@@ -1,13 +1,10 @@
-<?php 
+<?php
 
 return $routeConfig = [
-	'GET' => [
-			'/' => 'IndexController->index',
-		],
-	'POST' => [
-			'/user/add' => 'UserController->add',
-		],
-	'GET|POST' => [
-			'/user/index' => 'UserController->index',
-		],
+    '/' => [
+        'GET' => '\Core\Controller\Home\IndexController->index',
+    ],
+    '/user/add' => [
+        'POST' => '\Core\Controller\Home\UserController->add',
+    ],
 ];
